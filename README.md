@@ -65,6 +65,7 @@ Application Options:
       --ipv6-disabled    If specified, all AAAA requests will be replied with NoError RCode and empty answer
       --bogus-nxdomain=  Transform responses that contain at least one of the given IP addresses into NXDOMAIN. Can be specified multiple
                          times.
+      --udp-buf-size     Set the size of the UDP buffer in bytes. A value <= 0 will use the system default.
       --version          Prints the program version
 
 Help Options:
